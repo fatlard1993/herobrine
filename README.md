@@ -5,4 +5,4 @@
 
 A [Minecraft](minecraft.net) mod built on [Fabric](fabricmc.net).
 
-* Adds Herobrine
+* Re-Adds Herobrine
