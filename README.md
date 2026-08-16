@@ -16,14 +16,8 @@ A Fabric mod that adds Herobrine.
 
 ## Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/use/) for the Minecraft version declared in this mod's `gradle.properties`
-2. Download the latest release of Herobrine
-3. Place the jar file in your `mods` folder
-
-## Requirements
-
-- Targets the Minecraft, Fabric Loader, and Java versions declared in this mod's `gradle.properties` and `fabric.mod.json`; check there for the exact currently-supported version
+Install server-side alongside its declared dependencies (see `fabric.mod.json`). Vanilla clients need nothing. Version targets live in `gradle.properties` (Minecraft, loader, Fabric API) and `fabric.mod.json` (Java).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT, see [LICENSE](LICENSE).
