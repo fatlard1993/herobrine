@@ -14,9 +14,9 @@ A Fabric mod that adds Herobrine.
 *   Items?
 *   Pure unadulterated MAGIC
 
-## Installation
+## Development
 
-Install server-side alongside its declared dependencies (see `fabric.mod.json`). Vanilla clients need nothing. Version targets live in `gradle.properties` (Minecraft, loader, Fabric API) and `fabric.mod.json` (Java).
+Installing is in [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## License
 
