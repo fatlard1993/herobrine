@@ -15,6 +15,7 @@ observation/    Conditions            one sample of a player's surroundings, and
 world/          WorldAccess           the seam; every block, sound and light read goes through it
                 TunnelCarver          the corridors
                 SignatureLeavings     the sand, the put-out torches
+                Vec3i, Direction      block positions and headings, ours rather than Mojang's
 manifestation/  SightingScheduler     the clock: one sample per player per cadence
                 PlayerTrace           per-player carry-over between samples
                 AmbientDread          smoothed accumulation of the conditions he prefers
