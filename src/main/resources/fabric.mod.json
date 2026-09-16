@@ -9,7 +9,7 @@
 		"sources": "https://github.com/fatlard1993/herobrine"
 	},
 	"license": "MIT",
-	"icon": "assets/herobrine-justfatlard/icon.gif",
+	"icon": "assets/herobrine/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": ["justfatlard.herobrine.Main"]

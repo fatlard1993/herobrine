@@ -23,6 +23,11 @@ manifestation/  SightingScheduler     the clock: one sample per player per caden
                 StalkVector           where he stands when he does
 ```
 
+None of this runs yet. `Main` arms `SightingScheduler` with `ManifestationGate.DEFAULT`, but
+there is no `WorldAccess` implementation and nothing calls `SightingScheduler.tick` or `forget`,
+so no player is ever sampled. `SignatureLeavings.pyramid` is written and not called by
+`ManifestationGate.manifest`.
+
 `WorldAccess` is the whole point of the layout. Mojang's mappings move between snapshots and the
 behaviour does not, so the behaviour is written against that interface and the version binding is
 kept on the other side of it. Nothing under `manifestation` or `world` names a Minecraft type,
