@@ -78,3 +78,12 @@ publishing {
 		// mavenLocal()
 	}
 }
+
+// Smoke and full gametests, configured once for the whole suite in Pandorical.
+apply from: file("../pandorical/gametest.gradle")
+
+// fabric-api only for the tests. This mod needs none of it to run and deliberately does not ship
+// against it; the client gametest harness is part of it, so the test source set alone gets it.
+dependencies {
+	gametestImplementation "net.fabricmc.fabric-api:fabric-api:0.160.6+26.3"
+}

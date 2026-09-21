@@ -1,0 +1,16 @@
+{
+	"overview": [
+		"Adds Herobrine. Not a mob you can hit: every player carries a level of dread that the world around them raises and lowers."
+	],
+	"versions": {
+		"3.0.1": [
+			"The approach is built but not yet wired into the world, so a world with this installed plays exactly as it would without it. The docs say so plainly now, and there is an icon."
+		],
+		"3.0.0": [
+			"The approach becomes a machine rather than an intention: your surroundings are sampled, they feed a running dread, and lighting a room backs him off a step instead of cancelling him."
+		],
+		"1.0.0": [
+			"The first release: Herobrine, with structures, tunnels and blocks of his own."
+		]
+	}
+}
