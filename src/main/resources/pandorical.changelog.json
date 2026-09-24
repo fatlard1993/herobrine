@@ -4,10 +4,13 @@
 	],
 	"versions": {
 		"3.0.1": [
-			"The approach is built but not yet wired into the world, so a world with this installed plays exactly as it would without it. The docs say so plainly now, and there is an icon."
+			"The approach is built but not wired in, so a world with this installed plays as it would without.",
+			"The docs say so plainly now, and there is an icon."
 		],
 		"3.0.0": [
-			"The approach becomes a machine rather than an intention: your surroundings are sampled, they feed a running dread, and lighting a room backs him off a step instead of cancelling him."
+			"The approach becomes a machine rather than an intention.",
+			"Your surroundings are sampled, and they feed a running dread.",
+			"Lighting a room backs him off a step instead of cancelling him."
 		],
 		"1.0.0": [
 			"The first release: Herobrine, with structures, tunnels and blocks of his own."
