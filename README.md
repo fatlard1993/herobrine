@@ -24,6 +24,10 @@ There are five steps. You are told about four of them.
 
 Nothing is random. The same player in the same conditions gets the same approach, which is the part nobody believes until it happens to them twice.
 
+## Installing
+
+Server-side only, and Pandorical is not needed: players connect with an unmodified client. Singleplayer works too.
+
 ## Development
 
 Installing is in [DEVELOPMENT.md](DEVELOPMENT.md).
