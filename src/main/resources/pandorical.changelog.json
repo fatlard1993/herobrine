@@ -3,6 +3,9 @@
 		"Adds Herobrine. Not a mob you can hit: every player carries a level of dread that the world around them raises and lowers."
 	],
 	"versions": {
+		"3.0.2": [
+			"Mod Menu's Donate button leads to sponsoring the author on GitHub. Nothing in play changes."
+		],
 		"3.0.1": [
 			"The approach is built but not wired in, so a world with this installed plays as it would without.",
 			"The docs say so plainly now, and there is an icon."
